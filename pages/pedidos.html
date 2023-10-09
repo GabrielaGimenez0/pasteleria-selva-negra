@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Selva Negra Pastelería</title>
+</head>
+
+<body>
+    <header>
+        <section class="logoflex">
+            <div class="imglogo">
+                <img src="./../assets/logoSelvaNegra.png" alt="logoSelvaNegra" class="logomobile">
+            </div>
+        </section>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./tortas.html">Tortas</a></li>
+                    <li><a href="./tartas.html">Tartas</a></li>
+                    <li><a href="./pedidos.html">Pedidos</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <div class="centrar">
+            <H2>Aquí puedes realizar tu pedido</H2>
+        </div>
+        <!-- Aplico Grid -->
+        <div class="contenedor">
+            <div>
+                <p class="txt3">Torta Trufa</p>
+                <div class="centrar">
+                    <img src="../assets/tortaChoco.jpg" alt="tortaChoco" class="imgtamaño">
+                </div>
+                <p class="text4">Rellena con una suave mouse de chocolate y cubierta con una deliciosa ganache de
+                    chocolate. Decorada con exquisitas trufas de chocolate.</p>
+            </div>
+            <div>
+                <p class="txt3">Torta Crema</p>
+                <div class="centrar">
+                    <img src="../assets/tortaCrema.jpg" alt="tortaCrema" class="imgtamaño">
+                </div>
+                <p class="text4">Un suave bizcochuelo de vainilla humedecido con un delicioso almivar. Rellena con crema
+                    chantilly y decorada con flores comestibles</p>
+            </div>
+            <div>
+                <p class="txt3">Torta de Durazno</p>
+                <div class="centrar">
+                    <img src="../assets/TortaDurazno.jpg" alt="tortaDeDuraznos" class="imgtamaño">
+                </div>
+                <p class="text4">Capas de bizcochuelo recubiertas de crema chantilly, duraznos en almíbar y dulce de
+                    leche.</p>
+            </div>
+            <div>
+                <p class="txt3">Torta de Higos</p>
+                <div class="centrar">
+                    <img src="../assets/tortaHigos.jpg" alt="TortaDeHigos" class="imgtamaño">
+                </div>
+                <p class="text4">Bizcochuelo de vainilla relleno con una suave crema de vainilla e higos en almibar</p>
+            </div>
+            <div>
+                <p class="txt3">Tarta Cheese Cake</p>
+                <div class="centrar">
+                    <img src="../assets/tartaCheaseeCake.jpg" alt="tartaCheaseeCake" class="imgtamaño">
+                </div>
+                <p class="text4">Textura crujiente que contrasta con una textura suave del queso crema</p>
+            </div>
+            <div>
+                <p class="txt3">Tarta de dulce de Leche</p>
+                <div class="centrar">
+                    <img src="../assets/TartaDulceDeLeche.jpg" alt="tartaDulceDeLeche" class="imgtamaño">
+                </div>
+                <p class="text4">Base de masa quebrada con una deliciosa crema suave de dulce de leche. Decorada con
+                    salsa de caramelo y dulce de leche</p>
+            </div>
+            <div>
+                <p class="txt3">Tarta de Frutos Rojos</p>
+                <div class="centrar">
+                    <img src="../assets/tartaFrutosRojos.jpg" alt="tartaFrutosRojos" class="imgtamaño">
+                </div>
+                <p class="text4">galleta de nuez, relleno de chocolate blanco y frutos rojos.</p>
+            </div>
+            <div>
+                <p class="txt3">Lemon Pie</p>
+                <div class="centrar">
+                    <img src="../assets/tartaLemonPie.jpg" alt="" class="imgtamaño">
+                </div>
+                <p class="text4">Consiste en una crujiente base de masa quebrada, una cremosa crema de limón y se
+                    termina con un merengue italiano.</p>
+            </div>
+        </div>
+        <div>
+            <p>Elija el producro que desea comprar, ingrese sus datos y en el transcurso del día nos comunicaremos con
+                usted</p>
+        </div>
+        <!-- Inserto form de bootstrap agrego class contenedorform1 y modifico para que quede acorde a los estilos de la pg -->
+        <div class="contenedorform1">
+            <select class="form-select form-select-sm" aria-label="Small select example">
+                <option selected>Seleccione el producto</option>
+                <option value="tortaChoco">Torta Trufa</option>
+                <option value="tortaCrema">Torta Crema</option>
+                <option value="TortaDurazno">Torta de Duraznos</option>
+                <option value="tortaHigos">Torta de Higos</option>
+                <option value="tartaCheaseeCake">Chease Cake</option>
+                <option value="tartaDulceDeLeche">Tarta de dulce de Leche</option>
+                <option value="tartaFrutosRojos">Tarta de Frutos Rojos</option>
+                <option value="tartaLemonPie">Lemon Pie</option>
+            </select>
+        </div>
+        <!-- Agrego partes de form de bootstrap -->
+        <div>
+            <div class="col-md-4">
+                <label for="validationDefault01" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="validationDefault01" required>
+            </div>
+            <div class="col-md-4">
+                <label for="validationDefault02" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="validationDefault02" required>
+            </div>
+            <div class="col-md-4">
+                <label for="validationDefault01" class="form-label">Dirección</label>
+                <input type="text" class="form-control" id="validationDefault01" required>
+            </div>
+            <div class="col-md-4">
+                <label for="validationDefault02" class="form-label">Numero de teléfono</label>
+                <input type="number" class="form-control" id="validationDefault02" required>
+            </div>
+        </div>
+        <!-- Agrego class formtamaño y modifico para que este acorde a mis estilos -->
+        <div class="formtamaño">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com"
+                    required>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Indicaciones del pedido</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </div>
+        <div>
+            <input type="submit" value="ENVIAR" class="boton">
+        </div>
+    </main>
+    <footer>
+        <section>
+            <p class="txt1">
+                Dirección Avenida Gral. San Martín 225 - Teléfono 381 - 4512385
+            </p>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

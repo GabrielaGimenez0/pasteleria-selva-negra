@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Selva Negra Pastelería</title>
+</head>
+
+<body>
+    <header>
+        <section class="logoflex">
+            <div class="imglogo">
+                <img src="./../assets/logoSelvaNegra.png" alt="logoSelvaNegra" class="logomobile">
+            </div>
+        </section>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./tortas.html">Tortas</a></li>
+                    <li><a href="./tartas.html">Tartas</a></li>
+                    <li><a href="./pedidos.html">Pedidos</a></li>
+                    <li><a href="../pages/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section class="centrar">
+            <h1 class="txttablet">En esta sección puedes escribirnos si deseas productos personalizados y en el
+                transcurso del día nos comunicaremos con usted</h1>
+        </section>
+        <section>
+            <!-- Utilizo líneas de códigos de bootstrap para armar formulario acorde a las necesidades de la pg -->
+            <form action="">
+                <legend class="txt2">Contacto</legend>
+                <div class="txt1">
+                    <label for="validationDefault01" class="form-label">Nombre y Apellido</label>
+                    <input type="text" class="form-control" id="validationDefault01" required>
+                </div>
+                <div class="txt1">
+                    <label for="validationDefault02" class="form-label">Numero de teléfono</label>
+                    <input type="number" class="form-control" id="validationDefault02" required>
+                </div>
+                <div class="txt1">
+                    <label for="exampleFormControlTextarea1" class="form-label">Indicaciones del pedido</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <input type="reset" value="LIMPIAR" class="boton">
+                    <input type="submit" value="ENVIAR" class="boton">
+                </div>
+            </form>
+        </section>
+        <div>
+            <p class="txt2">Estos son algunos de nuestros productos</p>
+        </div>
+        <!-- Utilizo carrusel de bootstrap y agrego a cada imagen class carrusel para centrar las imagenes y dejarlas acorde al diseño de la pg -->
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./../assets/cupCake.jpg" class="carrusel" class="d-block w-100" alt="cupCake">
+                </div>
+                <div class="carousel-item">
+                    <img src="./../assets/casamiento.jpg" class="carrusel" class="d-block w-100" alt="tortaCasamiento">
+                </div>
+                <div class="carousel-item">
+                    <img src="./../assets/mesaDulceUnicornio.jpg" class="carrusel" class="d-block w-100"
+                        alt="mesaDulceUnicornio">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
+    <footer>
+        <section>
+            <p class="txt1">
+                Dirección Avenida Gral. San Martín 225 - Teléfono 381 - 4512385
+            </p>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
