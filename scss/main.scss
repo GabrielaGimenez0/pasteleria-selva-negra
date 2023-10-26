@@ -1,0 +1,13 @@
+//Main scss//
+@import "./utilitis/globales.scss";
+@import "./utilitis/mixis";
+@import "./utilitis/extend";
+@import"./components/header";
+
+@import "./pages/mainIndex";
+@import "./pages/mainTortas";
+@import "./pages/mainTartas";
+@import "./pages/mainPedidos";
+@import "./pages/mainContacto";
+@import"./components/footer";
+@import "./utilitis/mediasQueries";

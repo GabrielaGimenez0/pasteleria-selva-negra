@@ -1,0 +1,28 @@
+.mainIndex {
+    background-color: #F3FDE8;
+    section {
+        h1 {
+            text-align: center;
+        }
+    }
+}
+
+section {
+    img {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+        height: 25%;
+    }
+}
+
+.gridtexto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .text4 {
+        text-align: center;
+    }   
+}

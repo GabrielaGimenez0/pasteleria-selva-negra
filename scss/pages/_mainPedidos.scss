@@ -1,0 +1,198 @@
+/*Main Pedidos*/
+.mainPedidos {
+    background-color: #F3FDE8;
+
+    .centrar {
+        @extend %centrar;
+    }
+
+    .contenedor {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 40px;
+        background-color: #A8DF8E;
+
+        div {
+            .txt3 {
+                @extend %centrar;
+                font-weight: bold;
+            }
+
+            .centrar {
+                @extend %centrar;
+                ;
+
+                img {
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+
+            .text4 {
+                @extend %centrar;
+            }
+        }
+
+        div {
+            .txt3 {
+                text-align: center;
+                font-weight: bold;
+            }
+
+            .centrar {
+                @extend %centrar;
+
+                img {
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+
+            .text4 {
+                @extend %centrar;
+            }
+        }
+
+        div {
+            .txt3 {
+                @extend %centrar;
+                font-weight: bold;
+            }
+
+            .centrar {
+                @extend %centrar;
+
+                img {
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+
+            .text4 {
+                @extend %centrar;
+            }
+        }
+
+        div {
+            .txt3 {
+                @extend %centrar;
+                font-weight: bold;
+            }
+
+            .centrar {
+                @extend %centrar;
+
+                img {
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+
+            .text4 {
+                @extend %centrar;
+            }
+        }
+
+        div {
+            .txt3 {
+                @extend %centrar;
+                font-weight: bold;
+            }
+
+            .centrar {
+                @extend %centrar;
+
+                img {
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+
+            .text4 {
+                @extend %centrar;
+            }
+        }
+
+        div {
+            .txt3 {
+                @extend %centrar;
+                font-weight: bold;
+            }
+
+            .centrar {
+                @extend %centrar;
+
+                img {
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+
+            .text4 {
+                @extend %centrar;
+            }
+        }
+
+        div {
+            .txt3 {
+                @extend %centrar;
+                font-weight: bold;
+            }
+
+            .centrar {
+                @extend %centrar;
+
+                img {
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+
+            .text4 {
+                @extend %centrar;
+            }
+        }
+
+        div {
+            .txt3 {
+                @extend %centrar;
+                font-weight: bold;
+            }
+
+            .centrar {
+                @extend %centrar;
+
+                img {
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+
+            .text4 {
+                @extend %centrar;
+            }
+        }
+    }
+
+    .contenedorform1 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .formtamaño {
+        width: 50%;
+    }
+
+    .boton {
+        background-color: #A8DF8E;
+        color: white;
+        font-weight: bold;
+        border-radius: 20%;
+        border-color: #A8DF8E;
+        width: 100px;
+        margin: 30px;
+    }
+}
