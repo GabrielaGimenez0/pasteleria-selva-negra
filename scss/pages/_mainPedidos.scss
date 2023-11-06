@@ -2,13 +2,28 @@
 .mainPedidos {
     background-color: #F3FDE8;
 
+    .banner {
+        margin-bottom: 30px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: flex-end;
+
+        div {
+            @include banner;
+
+            p {
+                @extend %centrar;
+            }
+        }
+    }
+
     .centrar {
         @extend %centrar;
     }
 
     .contenedor {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 10px;
         margin-left: 40px;
         margin-right: 40px;
@@ -35,146 +50,6 @@
                 @extend %centrar;
             }
         }
-
-        div {
-            .txt3 {
-                text-align: center;
-                font-weight: bold;
-            }
-
-            .centrar {
-                @extend %centrar;
-
-                img {
-                    width: 200px;
-                    height: 200px;
-                }
-            }
-
-            .text4 {
-                @extend %centrar;
-            }
-        }
-
-        div {
-            .txt3 {
-                @extend %centrar;
-                font-weight: bold;
-            }
-
-            .centrar {
-                @extend %centrar;
-
-                img {
-                    width: 200px;
-                    height: 200px;
-                }
-            }
-
-            .text4 {
-                @extend %centrar;
-            }
-        }
-
-        div {
-            .txt3 {
-                @extend %centrar;
-                font-weight: bold;
-            }
-
-            .centrar {
-                @extend %centrar;
-
-                img {
-                    width: 200px;
-                    height: 200px;
-                }
-            }
-
-            .text4 {
-                @extend %centrar;
-            }
-        }
-
-        div {
-            .txt3 {
-                @extend %centrar;
-                font-weight: bold;
-            }
-
-            .centrar {
-                @extend %centrar;
-
-                img {
-                    width: 200px;
-                    height: 200px;
-                }
-            }
-
-            .text4 {
-                @extend %centrar;
-            }
-        }
-
-        div {
-            .txt3 {
-                @extend %centrar;
-                font-weight: bold;
-            }
-
-            .centrar {
-                @extend %centrar;
-
-                img {
-                    width: 200px;
-                    height: 200px;
-                }
-            }
-
-            .text4 {
-                @extend %centrar;
-            }
-        }
-
-        div {
-            .txt3 {
-                @extend %centrar;
-                font-weight: bold;
-            }
-
-            .centrar {
-                @extend %centrar;
-
-                img {
-                    width: 200px;
-                    height: 200px;
-                }
-            }
-
-            .text4 {
-                @extend %centrar;
-            }
-        }
-
-        div {
-            .txt3 {
-                @extend %centrar;
-                font-weight: bold;
-            }
-
-            .centrar {
-                @extend %centrar;
-
-                img {
-                    width: 200px;
-                    height: 200px;
-                }
-            }
-
-            .text4 {
-                @extend %centrar;
-            }
-        }
     }
 
     .contenedorform1 {
@@ -187,12 +62,6 @@
     }
 
     .boton {
-        background-color: #A8DF8E;
-        color: white;
-        font-weight: bold;
-        border-radius: 20%;
-        border-color: #A8DF8E;
-        width: 100px;
-        margin: 30px;
+        @include boton;
     }
 }

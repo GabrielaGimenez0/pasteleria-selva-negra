@@ -18,48 +18,16 @@
                     width: 200px;
                     height: 200px;
                 }
-                h2{
+
+                h2 {
                     font-weight: bold;
                     margin-bottom: 2px;
                     padding: 0%;
                 }
             }
-
-            .card1 {
-                @include medidasCard;
-
-                img {
-                    width: 200px;
-                    height: 200px;
-                }
-            }
         }
     }
 
-    section {
-        .hijosflexibles {
-            display: flex;
-            justify-content: space-evenly;
-
-            .card1 {
-                @include medidasCard;
-
-                img {
-                    width: 200px;
-                    height: 200px;
-                }
-            }
-
-            .card1 {
-                @include medidasCard;
-
-                img {
-                    width: 200px;
-                    height: 200px;
-                }
-            }
-        }
-    }
 
     section {
         .alinear {

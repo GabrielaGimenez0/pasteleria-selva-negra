@@ -21,17 +21,8 @@
             }
 
             .txt1 {
-                text-align: center;
-                padding: 30px;
-
                 .boton {
-                    background-color: #A8DF8E;
-                    color: white;
-                    font-weight: bold;
-                    border-radius: 20%;
-                    border-color: #A8DF8E;
-                    width: 100px;
-                    margin: 30px;
+                    @include boton;
                 }
             }
         }
@@ -45,16 +36,7 @@
                     height: 50%;
                     margin-left: 25%;
                 }
-                .carrusel {
-                    width: 50%;
-                    height: 50%;
-                    margin-left: 25%;
-                }
-                .carrusel {
-                    width: 50%;
-                    height: 50%;
-                    margin-left: 25%;
-                }
+
             }
         }
     }
